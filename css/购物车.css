@@ -1,0 +1,191 @@
+body{
+    background-color:aqua; 
+}
+.com_Cter{ width: 1200px;margin: auto;}
+
+
+/*logo区域*/
+.logo{
+    width: auto;
+    background-color:#fff;
+}
+.logo img{
+    margin:48px 0 0 40px; 
+}
+.logo_Cter{
+    width:auto;
+    height: 142px;
+}
+
+/*主体内容区域*/
+.content{
+    width: 100%;
+    height: auto;
+    border-top:1px solid #000; 
+    background-color:#F6F6F6; 
+}
+
+.oper_pm{
+    width: auto;
+    height:894px;
+    border:1px solid blue;
+    position: relative;
+}
+
+.platform_l{
+    width: 165px;
+    height: 894px;
+    background-color: #29274B;
+    text-align: center;
+}
+
+.platform_l .ul a{
+    display:block;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    font-size:18px;
+    color:#BDBDBD; 
+}
+.platform_l ul .li5 a{
+    background-color:#fff; 
+    border-radius:15px 0 0 15px; 
+    border-right:7px solid #FF407F; 
+    color:#000; 
+}
+.platform_l .ul{
+    width: 163px;
+    height: 229px;
+/*    background:url(../image/he.png) no-repeat;*/
+/*    background-position: 0 0;*/
+}
+
+ #no5{
+     width: 1035px;
+     height: 894px;
+     background-color:#fff; 
+    position: absolute;
+    left:165px;
+    top: 0;
+     z-index: 999;
+}
+#no5 h1{
+    margin:90px 0 0 50px; 
+}
+.buy_car,#no5 h2 ,.buy{
+    margin-left:40px; 
+    padding-left:10px; 
+}
+.buy{
+    height: 121px;
+    background-color:#F9F9F9; 
+}
+#no5 h2{
+    height: 40px;
+    line-height:50px;
+    border-bottom:1px solid #666; 
+}
+.buy_car{
+    height: 44px;
+    line-height: 44px;
+    background-color:#D9D9D9; 
+    padding-left:10px; 
+}
+.buy_car span:nth-of-type(1){
+    margin-left:545px; 
+}
+.buy_car span:nth-of-type(2){
+    margin-left:65px; 
+    color: red;
+}
+.buy_car span:nth-of-type(3){
+    margin-left:85px; 
+}
+
+
+
+
+.buy{
+    padding:15px 10px; 
+    height: 90px;
+    border-bottom:1px solid #000; 
+}
+.buy .img{
+    margin-left:25px; 
+    margin-right:10px; 
+}
+.buy p{display: inline-block;}
+.buy .show p a{
+    font-size:12px; 
+}
+.buy .show p a:hover{
+    color: red;
+    text-decoration:underline;
+}
+.buy .price{
+    margin-left:57px; 
+    color: red;
+    font-weight:600; 
+}
+.buy .total{
+    color: red;
+    font-weight:600; 
+}
+
+.buy .number{
+    width: 79px;
+    height: 21px;
+    line-height: 21px;
+    border:1px solid #ccc;
+    margin-left:30px; 
+}
+.buy .number input[type="button"]{
+    width: 20px;
+    height: 21px;
+}
+.buy .number input[type="text"]{
+    width: 30.7px;
+    height: 21px;
+    text-align: center;
+}
+.buy .total{
+    margin-left:45px;
+}
+
+
+
+.clearing{
+    width: 400px;
+    height: 52px;
+    float: right;
+    margin-top:20px; 
+}
+
+.clearing p{
+    float: left;
+}
+.clearing .p2{margin:0 40px; }
+
+.clearing p a{
+    display: inline-block;
+    width: 103px;
+    height: 52px;
+    background-color:red;
+    font-size:20px;
+    text-align: center;
+    line-height: 52px;
+    color:#fff; 
+}
+
+
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    background-color:#F6F6F6; 
+    color:#999;
+    padding-bottom:25px; 
+    border-top:1px solid #ccc; 
+}

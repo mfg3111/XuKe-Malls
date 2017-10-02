@@ -1,0 +1,382 @@
+body{
+    width: 100%;
+    height: auto;
+}
+/*最顶部导航条*/
+.shortcut{
+    width:100%;
+    height:30px;
+    border-bottom:1px solid #ccc; 
+    background-color:#fff; 
+}
+
+
+/*公用的居中的部分*/
+.com_Cter{
+    width: 1200px;
+    margin: auto;
+}
+.shortcut a{
+    color: #777;
+}
+.shortcut a:hover{
+    color:red;
+}
+.shortcut li{
+    float: left;
+    line-height: 30px;
+}
+.sh_left li{
+    margin-right:30px; 
+}
+.sh_right li{
+    margin-left:20px; 
+}
+
+
+
+/*头部的搜索框和logo区域*/
+.header{
+    width:1200px;
+    height: 112px;
+    margin:auto;
+    background-color:#fff; 
+}
+    .header .logo{
+        width: 240px;
+        text-align:center;
+    }
+    .header .logo img{
+        margin-top:15px;
+        vertical-align: middle;
+    }
+    .header .search{
+        width: 510px;
+        height: 112px;
+        margin-left:150px; 
+    }
+    .header .search input{
+        display: block;
+        width: 470px;
+        height: 40px;
+        line-height: 40px;
+        border:1px solid #999;
+        border-radius:35px; 
+        background:url(../image/首页_06.png) no-repeat left center;
+        padding-left:40px; 
+        margin-top:25px; 
+    }
+    .header .search p{
+        font-size:12px; 
+        text-align: center;
+        margin:5px 0; 
+    }
+    .header .search p a{
+        padding:0 5px;
+        border-right:1px solid #000;
+        color:#777; 
+    }
+.header .search p a:last-child{
+    border:0;
+}
+.header .search p a:hover{
+    color: red;
+    
+}
+
+
+
+
+/*banner的导航条*/
+.nav{
+    width:auto;
+    height: 40px;
+    background-color:black; 
+    line-height: 40px;
+}
+.nav h4{
+    color:aliceblue; 
+    float: left;
+    width: 220px;
+    padding-left:20px;
+    background-color:#6C49B8; 
+}
+.nav ul{
+    width: 900px;
+    height: 40px;
+    float:left;
+    margin-left:35px; 
+}
+
+.nav ul li{
+    float: left;
+    text-align: center;
+}
+
+.nav ul a{
+    display: inline-block;
+    color:#fff; 
+    width: 72px;
+    margin:auto; 
+}
+.nav ul a:hover{
+    background-color:antiquewhite;
+    color: #000;
+}
+
+
+
+
+
+/*content 主体*/
+.content{
+    width: 100%;
+    height: auto; 
+    padding-bottom:10px; 
+    background-color:#F6F6F6; 
+}
+
+.con_Cter{
+    width: 1200px;
+    height:auto;
+    margin:auto;
+    background-color:#fff; 
+}
+.con_t h1{
+    margin-top:12px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.con_Cter .con_t{
+    width: auto;
+    height: 155px;
+    border-bottom:1px solid #ccc; 
+}
+.con_t h1 a:hover{
+    color: firebrick;
+}
+.con_t h1 a:last-child{
+    margin-left:10px; 
+}
+.con_t p{padding-left: 60px;}
+.con_t .p1 a{
+    margin-right:32px; 
+}
+.con_t .p2{
+    margin-top:35px;
+    padding-bottom:25px;
+/*    border-bottom:1px solid #ccc; */
+}
+.con_t .p2 a{
+    margin-right:43px; 
+}
+.con_t b{
+    margin-right:18px;
+    margin-left:5px; 
+    color:blue;
+}
+
+.con_t p a:hover{
+    color:red; 
+}
+
+.con_sp{
+    width: 100%;
+    height: 1550px;
+    
+}
+.con_sp .con_item{
+    width: 224px;
+    height: 365px;
+    border:1px solid #ccc;
+    margin:10px 17.5px 10px 0; 
+    float: left;
+    text-align: center;
+}
+.con_sp .con_item img{
+    margin-top:17px; 
+}
+.con_item a{
+    margin:auto; 
+}
+.con_item p{
+    margin:5px 0 17px; 
+}
+.con_item p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.con_item b{
+    font-size:22px;
+    color:#B31313;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.con_item h1{
+    margin-top:22px; 
+    height: 31px;
+    line-height: 31px;
+    border-top:1px solid #ccc; 
+}
+.con_item h1 a{
+    display: inline-block;
+    margin:7px 0 0 25px;
+    line-height: 17px;
+    color:#fff;
+    float: left;
+    width: 40px;
+    height: 17px;
+    border-radius:20px;
+    background-color: #B31313;
+}
+.con_item h1 span{
+    margin-left:40px; 
+}
+.con_item h1 a:hover{
+    background-color:#ccc;
+    color: #B31313;
+}
+.con_sp .item_r{
+    margin:10px 0 10px 0; 
+}
+
+
+
+
+
+
+/*页码*/
+.page{
+    width:1200px;
+    height: 94px;
+/*    text-align: center;*/
+    line-height: 94px;
+}
+.page .page_Cter{
+    width: 520px;
+    height: 94px;
+    padding-left:120px; 
+    margin:auto; 
+    text-align: center;
+}
+
+.page a{
+    line-height: 30px;
+    font-size:18px; 
+/*    background:#ccc; */
+}
+.page .page_c{margin:0 5px; }
+.page .page_c a{
+    padding:0 7px; 
+    margin:0 5px; 
+}
+.page .page_l a,.page_r a{
+    display: block;
+    margin-top:28px; 
+    background-color:#fff; 
+}
+.page .page_send{
+    width: 150px;
+    height: 64px;
+    padding-top:30px; 
+    margin-left: 15px;
+    position: relative;
+}
+.page .page_send input,.page .page_send a{
+    display: block;
+    float: left;
+    width: 38px;
+    height: 25px;
+    border:1px solid #666;
+    float: left;
+    line-height: 25px;
+}
+.page .page_send input{
+    text-align: center;
+}
+.page .page_send a{font-size: 14px;color:#fff;background:#8D8D8D; }
+.page .page_send a:hover{
+    color:red; 
+}
+.page .page_send span{position: absolute;top:0;right:25px;}
+
+
+
+
+
+
+
+
+/*售后服务*/
+
+.after_sales{
+    width: 100%;
+    height: 294px;
+    background-color:#fff;
+}
+
+.after_sales .pro{
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid #ccc; 
+}
+
+.after_show{
+    width: 1200px;
+    margin:auto; 
+    text-align: center;
+}
+.after_show ul{
+    float: left;
+    width: 300px;
+    margin: 30px 0 0 ; 
+}
+.after_show ul h1{
+    margin-bottom:15px;
+    font-weight:700; 
+}
+
+.after_show ul li{line-height: 25px;}
+.after_show ul a:hover{color: red;}
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    background-color:#F6F6F6; 
+    color:#999;
+    padding-bottom:25px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

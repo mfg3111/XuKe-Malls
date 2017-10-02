@@ -1,0 +1,159 @@
+body,html{
+    width: 100%;
+    height:800px;
+    position: relative;
+}
+.header{
+    width: 1200px;
+    height: 142px;
+    margin:auto; 
+}
+.header a img{
+    margin-top:55px; 
+}
+.content{
+    width:100%;
+    height: 476px;
+    padding-top:42px;
+    background:url(../image/log_bj.png) no-repeat;
+}
+.log_box{
+    width: 345px;
+    height: 361px;
+    background-color:#fff; 
+    float: right;
+    margin-right:10%; 
+    text-align: center;
+}
+
+.log_box h1{
+    width: 100%;
+    height: 52px;
+    border-bottom:1px solid #ccc; 
+}
+.log_box h1 a{
+    display:block;
+    width: 172px;
+    height: 28px;
+    margin:13px 0; 
+    border-right:1px solid #ccc; 
+    float: left;
+    text-align: center;
+    font-size:20px; 
+}
+.log_box h1 a:first-child{
+    color:#3CA899;
+    font-weight:600; 
+}
+.log_box h1 a:last-child{
+    border:none;
+}
+.log_box .input{
+    padding:0 18px; 
+}
+.log_box .input form{
+    width: 307px;
+    height: 40px;
+    border:1px solid #ccc;
+}
+.log_box .input .p2{
+    width: 307px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+.log_box .input input{
+    height: 40px;
+    font-size:16px;
+    padding:0 10px;  
+    width: 245px;
+}
+ .input .p1{
+    margin:41px 0 20px;
+}
+
+.input span{
+    float: left;
+    display:block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color:#F3F3F3; 
+    border-right:1px solid #999; 
+}
+.input span img{
+    margin:5px; 
+}
+
+
+.log_box .dl{
+    padding:0 18px; 
+    text-align: center;
+}
+.log_box .dl .p1{
+    margin:22px 0 0; 
+}
+.log_box .dl .p1 i{float: left;}
+.log_box .dl .p1 a{float: right;}
+.log_box .dl .p1 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.log_box .dl .p1 input[type="checkbox"]{
+    margin-right:5px; 
+
+}
+
+
+.log_box .dl .p2 a{
+    display: block;
+    width: 307px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color:#58C9B9;
+    color: #fff;
+    font-size:20px;
+    margin-top:22px;
+    margin-bottom:10px;
+
+}
+.log_box .dl .p3 a{
+    color:#3DB2A2; 
+}
+.log_box .dl .p3 a:hover{
+    color:#980C22;
+    text-decoration:underline;
+    font-weight:600; 
+}
+
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color:#F6F6F6; 
+    color:#999;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+/* @media screen and (max-width: 1280px){
+    .log_box{
+        float: right;
+        margin-right:100px; 
+    }
+        #padding{
+            height: 100px;
+        }
+    .copy{
+        position: static;
+    }
+}
+ */
+
+
+
+

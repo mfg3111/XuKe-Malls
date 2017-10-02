@@ -1,0 +1,174 @@
+body{
+	width: 100%;height: 900px;position: relative;	
+}
+.header{
+	width: 100%;
+	height: 142px;
+	margin:auto; 
+	border-bottom: 1px solid #ccc;
+}
+.header a img{
+	margin-top:40px; 
+}
+.header span{
+	float: right;
+	margin-top:115px;
+	font-weight: 600;
+	color: #777;
+}
+.header span a:hover{
+	color: red;
+}
+.com_Cter{
+	width: 1200px;
+	height: auto;
+	margin:auto; 
+}
+
+.content{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+
+/* 设置信息 */
+.set_message{
+	width: 400px;
+	margin:60px auto 0;
+	text-align: left; 
+	font-size:18px; 
+}
+.set_message .p1 b{
+	margin-left:15px; 
+}
+.set_message .p2 {
+	font-weight: 600;
+}
+.set_message .p2 b{
+	color: #ccc;
+	margin-left: 15px;
+}
+
+
+.set_message .p2{
+	margin:35px 0 30px; 
+}
+
+.set_message span{
+	width: 88px;
+	display: inline-block;
+}
+.set_message  img{
+	margin:0 10px; 
+}
+.log_mm{
+	height: 40px;
+	line-height: 40px;
+}
+.log_mm i{
+	font-size:14px;
+	margin-left:5px;  
+	color:#FF6F3F; 
+}
+.confirm_mm{
+	height: 40px;
+	line-height: 40px;
+	margin-top:20px; 
+	margin-bottom:30px; 
+}
+
+.set_message input{
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	padding-left:10px; 
+	font-size:14px; 
+	border:1px solid #ccc;
+}
+
+.set_message h1{
+	margin-bottom:30px; 
+	font-weight:600; 
+}
+.set_message .p3 span{
+	margin-left:90px;
+	font-size:12px;  
+}
+.set_message .submit{
+	margin-top:24px; 
+}
+ .submit a{
+ 	display: block;
+ 	width: 123px;
+ 	height: 34px;
+ 	background-color:#58C9B9;
+ 	color:#fff;
+ 	text-align: center;
+ 	line-height: 34px;
+ 	font-size:20px;
+ 	margin-left: 90px;  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 版权 */
+.copy{
+	width: 100%;
+	height: 50px;	
+	line-height: 50px;
+	text-align: center;
+	padding:10px  0;
+	border-top:1px solid #ccc; 
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

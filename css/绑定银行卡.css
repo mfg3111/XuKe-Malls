@@ -1,0 +1,202 @@
+body{
+	width: 100%;height: 800px;position: relative;
+	
+}
+.header{
+	width: 100%;
+	height: 142px;
+	margin:auto; 
+	border-bottom: 1px solid #ccc;
+}
+.header a img{
+	margin-top:40px; 
+}
+.header span{
+	float: right;
+	margin-top:115px;
+	font-weight: 600;
+	color: #777;
+}
+.header span a:hover{
+	color: red;
+}
+.com_Cter{
+	width: 1200px;
+	height: auto;
+	margin:auto; 
+}
+
+.content{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.bind_bank_card{
+	width: 425px;
+	margin:75px auto 0; 
+}
+
+.bind_bank_card span{
+	display: inline-block;;
+	font-size:18px;
+	width: 100px;
+	float: left;
+	text-align:right; 
+	padding-right: 10px;
+
+}
+.bind_bank_card input{padding-left:10px; }
+.bank_no,.bank_name,.ID,.mobile_no{
+	height: 40px;
+	line-height: 40px;
+}
+
+.bank_no input{
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #ccc;
+	width: 298px;
+}
+
+.bank_name{margin:20px 0; }
+.bank_name b{
+	font-size:12px;
+	display: block;
+	margin-top:-12px;  
+	text-align: right;
+	color:#58C9B9; 
+}
+.bank_name input{
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #ccc;
+	width: 298px;
+}
+
+.ID input{
+	height: 38px;
+	border:1px solid #ccc;
+	width: 195px;
+	font-size:16px; 
+}
+
+.ID select{
+	width: 103px;
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #ccc;
+	border-right:none; 
+	padding-left:20px; 
+	font-size:16px; 
+}
+
+
+.mobile_no{
+	height: 40px;
+	line-height: 40px;
+	margin-top:20px; 
+}
+
+.mobile_no input{
+	height: 40px;
+	line-height: 40px;
+	border:1px solid #ccc;
+	float: left;
+	margin-left:2px; 
+}
+.mobile_no img{
+	margin-left:-15px; 
+	margin-right:5px; 
+}
+.mobile_no a{
+	color:#58C9B9;
+	text-decoration:underline; 
+}
+
+.mobile_no a:hover{
+	color: red;
+	text-decoration:none;
+}
+
+.agree_xy a{
+	margin-top:43px; 
+	display: block;
+	width: 210px;
+	height: 34px;
+	line-height: 34px;
+	background-color:#58C9B9;
+	font-size:20px;
+	color:#fff;
+	text-align: center;   
+	margin-left:110px; 
+}
+
+.fast_pay_xy{
+	margin-top:10px; 
+}
+.fast_pay_xy b,.fast_pay_xy a{
+	color: #23D5BC;
+}
+.fast_pay_xy a:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+
+/* 版权 */
+.copy{
+	width: 100%;
+	height: 50px;	
+	line-height: 50px;
+	text-align: center;
+	padding:10px  0;
+	border-top:1px solid #ccc; 
+	position: absolute;
+	bottom: 0;
+}
+@media screen and (max-width:1280px){
+	body{
+		font-size:13px; 
+	}
+	
+	#padding{
+		height: 100px;
+	}
+	.copy{
+		position:static;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

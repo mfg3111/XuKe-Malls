@@ -1,0 +1,403 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color:#F6F6F6; 
+}
+/*最顶部导航条*/
+.shortcut{
+    width:100%;
+    height:30px;
+    border-bottom:1px solid #ccc; 
+    background-color:#fff; 
+}
+
+
+/*公用的居中的部分*/
+.com_Cter{
+    width: 1200px;
+    margin: auto;
+}
+.shortcut a{
+    color: #777;
+}
+.shortcut a:hover{
+    color:red;
+}
+.shortcut li{
+    float: left;
+    line-height: 30px;
+}
+.sh_left li{
+    margin-right:30px; 
+}
+.sh_right li{
+    margin-left:20px; 
+}
+
+
+
+/*头部的搜索框和logo区域*/
+.header_search{
+    width: 100%;
+    background-color:#fff; 
+}
+.header{
+    width:1200px;
+    height: 112px;
+    margin:auto;
+    background-color:#fff; 
+}
+    .header .logo{
+        width: 240px;
+        text-align:center;
+    }
+    .header .logo img{
+        margin-top:15px;
+        vertical-align: middle;
+    }
+    .header .search{
+        width: 510px;
+        height: 112px;
+        margin-left:150px; 
+    }
+    .header .search input{
+        display: block;
+        width: 470px;
+        height: 40px;
+        line-height: 40px;
+        border:1px solid #999;
+        border-radius:35px; 
+        background:url(../image/首页_06.png) no-repeat left center;
+        padding-left:40px; 
+        margin-top:25px; 
+    }
+    .header .search p{
+        font-size:12px; 
+        text-align: center;
+        margin:5px 0; 
+    }
+    .header .search p a{
+        padding:0 5px;
+        border-right:1px solid #000;
+        color:#777; 
+    }
+.header .search p a:last-child{
+    border:0;
+}
+.header .search p a:hover{
+    color: red;
+    
+}
+
+
+
+
+/*导航条*/
+.nav{
+    width:auto;
+    height: 40px;
+    background-color:black; 
+    line-height: 40px;
+}
+.nav h4{
+    color:aliceblue; 
+    float: left;
+    width: 220px;
+    padding-left:20px;
+    background-color:#6C49B8; 
+}
+.nav ul{
+    width: 900px;
+    height: 40px;
+    float:left;
+    margin-left:35px; 
+}
+
+.nav ul li{
+    float: left;
+    text-align: center;
+}
+
+.nav ul a{
+    display: inline-block;
+    color:#fff; 
+    width: 72px;
+    margin:auto; 
+}
+.nav ul a:hover{
+    background-color:antiquewhite;
+    color: #000;
+}
+
+
+
+
+
+/*商品价格*/
+.com_price{
+    width: auto;
+    height: 569px;
+    background-color:#fff; 
+}
+.com_price h1{
+    height: 41px;
+    line-height: 41px;
+    border-bottom:1px solid #ccc;
+    font-weight: 600;
+    color:#444; 
+}
+
+.com_price h1 a{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.com_price h1 a:hover{
+    color:red; 
+}
+
+.comprice_con{
+    width: auto;
+    height: 528px;
+    
+}
+
+/*左边的商品展示图*/
+.display_map_l{
+    width: 303px;
+    height: 392px;
+    margin-top:74px;
+    margin-left:49px;     
+/*    position:relative;*/
+}
+.display_map_l .display_map_big{
+    height: 312px;
+}
+
+.display_map_l .display_map_small{
+    border:1px solid red; 
+    margin-left:10px; 
+        
+}
+
+
+
+
+/*右边的商品价格*/
+.com_price_r{
+    height: 392px;
+    width: 300px;
+    margin-top:74px;
+    margin-left:200px;  
+}
+
+
+
+.com_price_r h3{
+    font-size:22px; 
+    position:relative;
+    top:-5px;
+    margin-bottom:-5px;  
+}
+.com_price_r h6{
+    font-size:14px; 
+}
+
+.com_price_r h1{
+    font-size:36px;
+    color:#B31313;
+    border: none;
+    margin:5px 0 20px; 
+    
+}
+.com_price_r h1 span{
+    font-size: 16px;
+    color:#999;
+    position: relative;
+    bottom:7px;
+    text-decoration: line-through;
+}
+
+
+
+.com_price_r p{
+    font-weight:600; 
+}
+
+.com_price_r h4{
+    margin-top:35x; 
+    position:relative;
+    top:13px;
+    font-weight:600; 
+}
+.com_price_r select{
+    margin-top:15px; 
+    display: block;
+    border:1px solid #ccc;
+    width: 237px;
+    height: 20px;
+    font-weight:600; 
+}
+.com_price_r input{
+    border:1px solid #ccc;
+    margin-top:15px; 
+    width: 41px;
+    height: 22px;
+    margin-right:2px; 
+}
+
+.com_price_r .choose_set{
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    margin:40px 0 22px; 
+}
+.com_price_r .choose_set a{
+    display: inline-block;
+    border:1px solid #999;
+    width: 67px;
+    height: 26px;
+    margin: 0 5px; 
+    text-align: center;
+}
+.com_price_r .buy{margin-top:22px; }
+.com_price_r .buy a{
+    display:inline-block;
+    width: 112px;
+    height: 36px;
+    border:none;
+}
+.com_price_r .buy a img{
+    width: 112px;
+    height: 36px;
+}
+
+
+
+
+
+/*商品详情、用户评论*/
+.com_details{
+    width: auto;
+    height: 1265px;
+}
+.com_details_text{
+    width: auto;
+    height: auto;
+    margin-bottom:40px;
+    background-color:#F1F0F0; 
+}
+.com_details .option{
+    width: 285px;
+    height: 48px;
+    border:1px solid #ccc;
+    border-bottom:none; 
+    background-color:#fff; 
+}
+.com_details .option_full{
+    width: auto;
+    background-color:#fff;
+    border-bottom:1px solid #ccc; 
+}
+.com_details .option a{
+    display:block;
+    float: left;
+    width: 142px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size:18px;
+/*    color: #6C49B8;*/  /*选中状态的颜色*/
+    color:#8D8D8D;
+}
+.com_details .option a:first-child{
+    border-right:1px solid #ccc; 
+    color:#6C49B8;
+    font-weight: 500;
+    border-top:1px solid #6C49B8; 
+}
+
+/*
+.com_details .option a:last-child{
+}
+*/
+
+.com_details .details_con{
+    font-size:18px;
+    margin-top:33px;
+    margin-left:141px; 
+    margin-bottom:40px;
+}
+
+.com_details .details_con p{
+    color:#999;
+    line-height: 30px;
+}
+
+.com_details .com_details_img{
+    background-color:#fff; 
+}
+.com_details .com_details_img img{
+    margin-left:155px;
+    margin-top:14px; 
+    margin-bottom:100px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*售后服务*/
+
+.after_sales{
+    width: 100%;
+    height: 294px;
+    background-color:#fff;
+}
+
+.after_sales .pro{
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid #ccc; 
+}
+
+.after_show{
+    width: 1200px;
+    margin:auto; 
+    text-align: center;
+}
+.after_show ul{
+    float: left;
+    width: 300px;
+    margin: 30px 0 0 ; 
+}
+.after_show ul h1{
+    margin-bottom:15px;
+    font-weight:700; 
+}
+
+.after_show ul li{line-height: 25px;}
+.after_show ul a:hover{color: red;}
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    background-color:#F6F6F6; 
+    color:#999;
+    padding-bottom:25px; 
+}
+
+
+

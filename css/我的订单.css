@@ -1,0 +1,148 @@
+body{
+    background-color:aqua; 
+}
+.com_Cter{ width: 1200px;margin: auto;}
+
+
+/*logo区域*/
+.logo{
+    width: auto;
+    background-color:#fff;
+}
+.logo img{
+    
+    margin:48px 0 0 40px; 
+}
+.logo_Cter{
+    width:auto;
+    height: 142px;
+}
+
+/*主体内容区域*/
+.content{
+    width: 100%;
+    height: auto;
+    border-top:1px solid #000; 
+    background-color:#F6F6F6; 
+}
+
+.oper_pm{
+    width: auto;
+    height:894px;
+    border:1px solid blue;
+    position: relative;
+}
+
+.platform_l{
+    width: 165px;
+    height: 894px;
+    background-color: #29274B;
+    text-align: center;
+}
+
+.platform_l .ul a{
+    display:block;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    font-size:18px;
+    color:#BDBDBD; 
+}
+.platform_l ul .li2 a{
+    background-color:#fff; 
+    border-radius:15px 0 0 15px; 
+    border-right:7px solid #FF407F; 
+    color:#000; 
+}
+.platform_l .ul{
+    width: 163px;
+    height: 229px;
+/*    background:url(../image/he.png) no-repeat;*/
+/*    background-position: 0 0;*/
+}
+
+ #no2{
+     width: 910px;
+     height: 839px;
+    position: absolute;
+    left:165px;
+    top: 0;
+     z-index: 999;
+     padding:40px 0 0 125px;
+     background-color:#fff; 
+}
+#no2 h1{
+    font-size:16px;
+    font-weight:600; 
+    margin:0 0 20px 125px; 
+}
+.order{
+    width: 262px;
+    height: 303px;
+    border:1px solid #ccc;
+    text-align: center;
+    margin-right:25px; 
+}
+
+.order h2{
+    margin:18px 0 18px; 
+}
+.order .order_con{
+    width: 241px;
+    height: 178px;
+    border:1px solid #e2e2e3;
+    margin:auto;
+    text-align: left;
+}
+
+.order_con h3{
+    background-color:#90EEE1;
+    height: 26px;
+    line-height: 26px;
+    padding-left:10px; 
+}
+.order_con p{
+    padding-left:12px;
+    font-size:12px;
+    line-height: 25px;
+}
+.order a{
+    display:inline-block;
+    width: 67px;
+    height: 27px;
+    background-color:#58C9B9;
+    margin-top:18px;
+    color:#fff;
+    line-height: 27px;
+}
+
+.order a:hover{
+    color:darkred;
+    font-weight: 700;
+}
+
+.drop_down span{
+    display: inline-block;
+    width: 108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    background-color:#F6F6F6; 
+    color:#999;
+    padding-bottom:25px; 
+    border-top:1px solid #ccc; 
+}

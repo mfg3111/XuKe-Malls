@@ -1,0 +1,131 @@
+body{
+    background-color:aqua; 
+}
+.com_Cter{ width: 1200px;margin: auto;}
+
+
+/*logo区域*/
+.logo{
+    width: auto;
+    background-color:#fff;
+}
+.logo img{
+    
+    margin:48px 0 0 40px; 
+}
+.logo_Cter{
+    width:auto;
+    height: 142px;
+}
+
+/*主体内容区域*/
+.content{
+    width: 100%;
+    height: auto;
+    border-top:1px solid #000; 
+    background-color:#F6F6F6; 
+}
+
+.oper_pm{
+    width: auto;
+    height:894px;
+    border:1px solid blue;
+    position: relative;
+}
+
+.platform_l{
+    width: 165px;
+    height: 894px;
+    background-color: #29274B;
+    text-align: center;
+}
+
+.platform_l .ul a{
+    display:block;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    font-size:18px;
+    color:#BDBDBD; 
+}
+.platform_l ul .li4 a{
+    background-color:#fff; 
+    border-radius:15px 0 0 15px; 
+    border-right:7px solid #FF407F; 
+    color:#000; 
+}
+.platform_l .ul{
+    width: 163px;
+    height: 229px;
+}
+
+ #no4{
+     width: 943px;
+     height: 766px;
+     background-color:#fff; 
+    position: absolute;
+    left:165px;
+    top: 0;
+     z-index: 999;
+     font-size:16px; 
+     padding:126px 0 0 92px; 
+}
+#no4 span{
+    width: 120px;
+    display: block;
+    float: left;
+}
+
+
+#no4 b{margin-left:57px; }
+#no4 i{
+    display: block;
+    float: left;
+    width: 375px;
+}
+#no4 i i{margin-top:5px; }
+#no4 b a{
+    color:#58C9B9; 
+}
+#no4 b a:hover{
+    color:orangered;
+    text-decoration:underline;
+}
+#no4 i b{
+    margin-left:100px; 
+}
+
+.zhanghao{
+    height: 80px;
+}
+.log_password{
+    height: 65px;
+}
+.now_password{height: 65px;}
+.bank_card{height: 65px;}
+.drop_down i{
+    height: 50px;
+}
+#no4 span{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/*版权*/
+.copy{
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    background-color:#F6F6F6; 
+    color:#999;
+    padding-bottom:25px; 
+    border-top:1px solid #ccc; 
+}
